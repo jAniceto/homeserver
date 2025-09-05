@@ -13,4 +13,4 @@ services:
       - type: bind
         source: '/home/${USER}/data'
         target: /media
-    restart: 'unless-stopped'
+    restart: unless-stopped
