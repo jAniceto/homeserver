@@ -1,0 +1,30 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/bookmarks
+
+- Resources:
+    - Trash Guides:
+        - abbr: TG
+          href: https://trash-guides.info/
+
+    - Servarr Wiki:
+        - abbr: SW
+          href: https://wiki.servarr.com/
+
+    - FUTO Self Managed Guide:
+        - abbr: FU
+          href: https://wiki.futo.org/index.php/Introduction_to_a_Self_Managed_Life:_a_13_hour_%26_28_minute_presentation_by_FUTO_software
+
+- Downloads:
+    - TorrentLeech:
+        - abbr: TL
+          href: https://www.torrentleech.org
+
+    - Portugas:
+        - abbr: PT
+          href: https://portugas.org/
+
+- Personal:
+    - Programming Notes:
+        - abbr: PN
+          href: https://janiceto.github.io/programming-notes/homeserver/
