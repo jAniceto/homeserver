@@ -1,0 +1,62 @@
+services:
+  radarr:
+    container_name: radarr
+    image: ghcr.io/hotio/radarr:latest
+    restart: unless-stopped
+    logging:
+      driver: json-file
+    ports:
+      - 7878:7878
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Lisbon
+    volumes:
+      # - /etc/localtime:/etc/localtime:ro
+      - '/home/${USER}/server/radarr:/config'
+      - '/home/${USER}/data:/data'
+  sonarr:
+    container_name: sonarr
+    image: ghcr.io/hotio/sonarr:latest
+    restart: unless-stopped
+    logging:
+      driver: json-file
+    ports:
+      - 8989:8989
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Lisbon
+    volumes:
+      # - /etc/localtime:/etc/localtime:ro
+      - '/home/${USER}/server/sonarr:/config'
+      - '/home/${USER}/data:/data'
+  bazarr:
+    container_name: bazarr
+    image: ghcr.io/hotio/bazarr:latest
+    restart: unless-stopped
+    logging:
+      driver: json-file
+    ports:
+      - 6767:6767
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Lisbon
+    volumes:
+      # - /etc/localtime:/etc/localtime:ro
+      - '/home/${USER}/server/bazarr:/config'
+      - '/home/${USER}/data/media:/data/media'
+  prowlarr:
+    image: lscr.io/linuxserver/prowlarr:latest
+    container_name: prowlarr
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Lisbon
+    volumes:
+      - '/home/${USER}/server/prowlarr:/config'
+    ports:
+      - 9696:9696
+    restart: unless-stopped
+
