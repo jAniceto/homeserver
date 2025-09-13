@@ -10,7 +10,5 @@ services:
     volumes:
       - '/home/${USER}/server/jellyfin/config:/config'
       - '/home/${USER}/server/jellyfin/cache:/cache'
-      - type: bind
-        source: '/home/${USER}/data'
-        target: /media
+      - '/home/${USER}/data/media:/data/media'
     restart: unless-stopped
