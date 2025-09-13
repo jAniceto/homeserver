@@ -12,7 +12,7 @@ services:
       - PGID=1000
       - TZ=Europe/Lisbon
     volumes:
-      # - /etc/localtime:/etc/localtime:ro
+      - /etc/localtime:/etc/localtime:ro
       - '/home/${USER}/server/radarr:/config'
       - '/home/${USER}/data:/data'
   sonarr:
@@ -28,7 +28,7 @@ services:
       - PGID=1000
       - TZ=Europe/Lisbon
     volumes:
-      # - /etc/localtime:/etc/localtime:ro
+      - /etc/localtime:/etc/localtime:ro
       - '/home/${USER}/server/sonarr:/config'
       - '/home/${USER}/data:/data'
   bazarr:
@@ -44,7 +44,7 @@ services:
       - PGID=1000
       - TZ=Europe/Lisbon
     volumes:
-      # - /etc/localtime:/etc/localtime:ro
+      - /etc/localtime:/etc/localtime:ro
       - '/home/${USER}/server/bazarr:/config'
       - '/home/${USER}/data/media:/data/media'
   prowlarr:
