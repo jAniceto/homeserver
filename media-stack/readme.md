@@ -5,26 +5,33 @@ This guide shows how to set up a media stack using Plex or Jellyfin and the Serv
 This guides assumes you named your host server `homeserver` and it has the following folder structure:
 
 ```
-~/
-|-- data/
-|   |-- downloads/
-|   |-- movies/
-|   |-- shows/
-|-- plex/
-|   |-- library/
-|   |-- docker-compose.yml
-|-- transcode/
-|   |-- temp/
+/home/josep/
+├── server/
+│   ├── bazarr/
+│   ├── jellyfin/
+|   |   ├── ...
+│   |   └── docker-compose.yml
+│   ├── plex/
+|   |   ├── ...
+│   |   └── docker-compose.yml
+│   ├── prowlarr/
+│   ├── qbittorrent/
+│   ├── radarr/
+│   ├── servarr/
+│   |   └── docker-compose.yml
+│   └── sonarr/
+└── data/
+    ├── torrent
+    |   ├── books
+    |   ├── movies
+    |   └── tv
+    └── media
+        ├── books
+        ├── movies
+        ├── transcode
+        └── tv
 ```
 
-You can start by creating these folders:
-
-```bash
-cd ~
-mkdir - p data/downloads
-mkdir - p data/movies
-mkdir - p data/shows
-```
 
 Make sure the folders have the needed permissions and ownership by running:
 
