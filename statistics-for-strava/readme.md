@@ -28,7 +28,11 @@ Create the [`.env`](.env) file. Fill in the Strava API data. Do not change the `
 
 Note: Every time you change the `.env` file, you need to recreate (for example; docker compose up -d) your container for the changes to take effect (restarting does not update the `.env`). 
 
-Create the [`config/config.yml`](config/config.yml) file. Fill in birthdate and other desired info.
+Create the [`config/config.yml`](config/config.yml) file. Most of the defaults are OK, however some required data must be added:
+
+- Add `appUrl`. Should be something like `http://192.168.X.XXX:XXXX/`.
+- Add birthday in `birthday`.
+- Add your weights over time in `weightHistory`.
 
 
 To run the application run the following command:
@@ -54,3 +58,18 @@ docker compose exec app bin/console app:strava:build-files
 ```
 
 Importing will take some time on the first run to avoid Strava API rate limits.
+
+
+## Scheduling
+
+To schedule the updates and build commands you can use the host system crontab.
+
+```bash
+crontab -e
+```
+
+Then add the following. This will run the import and build scripts every day at 04:00.
+
+```
+0 4 * * * cd ~/server/statistics-for-strava && docker compose exec --user josep app bin/console app:strava:import-data && docker compose exec --user josep app bin/console app:strava:build-files
+```
