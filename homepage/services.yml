@@ -4,51 +4,72 @@
 
 - Media:
     - Immich:
+        icon: immich
         href: http://homeserver:2283
         description: Photo and video management
+        container: immich_server
 
     - Plex:
+        icon: plex
         href: http://homeserver:32400/web
         description: Media server
+        container: plex
 
-- Utilities:
-    - Portainer:
-        href: http://homeserver:9443
-        description: Docker container management
+    - Jellyfin:
+        icon: jellyfin
+        href: http://homeserver:8096
+        description: Media server
+        container: jellyfin
 
-    - qBittorrent:
-        href: http://homeserver:8080
-        description: Bittorrent client
-    
-    - Syncthing:
-        href: http://homeserver:8384
-        description: File synchronization
+    - Audiobookshelf:
+        icon: audiobookshelf
+        href: http://homeserver:13378
+        description: Audiobook and book server
+        container: audiobookshelf-audiobookshelf-1
 
+- Tools and Utilities:
     - File Browser:
+        icon: filebrowser
         href: http://homeserver:8081
         description: File browser
+        container: filebrowser-filebrowser-1
+    
+    - qBittorrent:
+        icon: qbittorrent
+        href: http://homeserver:8080
+        description: Bittorrent client
+        container: qbittorrent
+    
+    - Statistics for Strava:
+        href: http://homeserver:8082
+        description: Dashboard for Strava data
+        container: statistics-for-strava
 
 - Servarr:
     - Radarr:
+        icon: radarr
         href: http://homeserver:7878
         description: Movies
+        container: radarr
 
     - Sonarr:
+        icon: sonarr
         href: http://homeserver:8989
         description: TV shows
+        container: sonarr
 
     - Prowlarr:
+        icon: prowlarr
         href: http://homeserver:9696
         description: Indexer manager
+        container: prowlarr
 
     - Bazarr:
+        icon: bazarr
         href: http://homeserver:6767
         description: Subtitle manager
+        container: bazarr
 
-    - Overseerr:
-        href: http://homeserver:5055
-        description: Media requests manager
-
-    - Audiobookshelf:
-        href: http://homeserver:13378
-        description: Audiobook and podcast server
+    # - Overseerr:
+    #     href: http://homeserver:5055
+    #     description: Media requests manager
