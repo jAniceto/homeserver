@@ -56,21 +56,20 @@ Overview of several services for a Home Server.
 - [NextCloud](https://nextcloud.com/install/#instructions-server)
 - OwnCloud
 - [Syncthing](https://syncthing.net/)
+- [Samba](https://www.samba.org/)
 
 
 ### Media
 
+- [Calibre](https://calibre-ebook.com/) and [Calibre-Web](https://github.com/janeczku/calibre-web)
 - [audiobookshelf](https://www.audiobookshelf.org/)
+- [Paperless-ngx](https://docs.paperless-ngx.com/) - Scan, OCR and organize documents
 
 
-### Reverse proxy
+### Server and Networking
 
-- [Caddy](https://caddyserver.com/)
-
-
-### Server monitoring
-
-- [Uptime Kuma](https://uptimekuma.org/)
+- [Caddy](https://caddyserver.com/) - Reverse proxy
+- [Uptime Kuma](https://uptimekuma.org/) - Server status monitoring
 
 
 ### Documentation and knowledge base
@@ -86,6 +85,11 @@ Overview of several services for a Home Server.
 - [Dawarich](https://dawarich.app/) - Self-hosted alternative to Google Timeline
 
 
+### Utilities
+
+- [Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)
+
+
 ## Resources
 
 - [MediaStack.Guide](https://mediastack.guide/), [MediaStack.Guide Github](https://github.com/geekau/mediastack)
@@ -98,4 +102,4 @@ Overview of several services for a Home Server.
 - [The complete guide to building your personal self hosted server for streaming and ad-blocking](https://www.reddit.com/r/Piracy/comments/pqsomd/the_complete_guide_to_building_your_personal_self/)
 - [Techno TIm](https://technotim.live/)
 - [TechHutTV Wiki](https://github.com/TechHutTV/homelab)
-
+- [awesome-selfhosted](https://awesome-selfhosted.net)
