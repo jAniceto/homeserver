@@ -59,11 +59,12 @@ Overview of several services for a Home Server.
 - [Samba](https://www.samba.org/)
 
 
-### Media
+### Media libraries and management
 
 - [Calibre](https://calibre-ebook.com/) and [Calibre-Web](https://github.com/janeczku/calibre-web)
 - [audiobookshelf](https://www.audiobookshelf.org/)
 - [Paperless-ngx](https://docs.paperless-ngx.com/) - Scan, OCR and organize documents
+- [Karakeep](https://karakeep.app/) - bookmark anything
 
 
 ### Server and Networking
@@ -88,6 +89,7 @@ Overview of several services for a Home Server.
 ### Utilities
 
 - [Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)
+- [ntfy](https://github.com/binwiederhier/ntfy) - Send push notifications
 
 
 ## Resources
