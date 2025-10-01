@@ -57,6 +57,7 @@ Overview of several services for a Home Server.
 - OwnCloud
 - [Syncthing](https://syncthing.net/)
 - [Samba](https://www.samba.org/)
+  [Kopia](https://kopia.io/docs/getting-started/)
 
 
 ### Media libraries and management
