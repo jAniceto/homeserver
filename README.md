@@ -66,6 +66,7 @@ Overview of several services for a Home Server.
 - [audiobookshelf](https://www.audiobookshelf.org/)
 - [Paperless-ngx](https://docs.paperless-ngx.com/) - Scan, OCR and organize documents
 - [Karakeep](https://karakeep.app/) - bookmark anything
+- [Linkding](https://linkding.link/) - bookmark manager
 
 
 ### Server and Networking
@@ -85,6 +86,7 @@ Overview of several services for a Home Server.
 - [Statistics for Strava](https://github.com/robiningelbrecht/statistics-for-strava) - Additional stats from your Strava data
 - [Firefly III](https://docs.firefly-iii.org/how-to/firefly-iii/installation/docker/) - Personal finance manager 
 - [Dawarich](https://dawarich.app/) - Self-hosted alternative to Google Timeline
+- [Actual Budget](https://actualbudget.com/) - app for managing your finances
 
 
 ### Utilities
