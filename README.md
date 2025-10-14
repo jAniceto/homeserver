@@ -54,7 +54,6 @@ Overview of several services for a Home Server.
 
 - [File Browser](https://github.com/filebrowser/filebrowser) and currently [FileBrowser Quantum](https://github.com/gtsteffaniak/filebrowser)
 - [NextCloud](https://nextcloud.com/install/#instructions-server)
-- OwnCloud
 - [Syncthing](https://syncthing.net/)
 - [Samba](https://www.samba.org/)
   [Kopia](https://kopia.io/docs/getting-started/)
@@ -73,6 +72,7 @@ Overview of several services for a Home Server.
 
 - [Caddy](https://caddyserver.com/) - Reverse proxy
 - [Uptime Kuma](https://uptimekuma.org/) - Server status monitoring
+- [Pangolin](https://docs.digpangolin.com/) - tunneled reverse proxy server
 
 
 ### Documentation and knowledge base
