@@ -66,6 +66,7 @@ Overview of several services for a Home Server.
 - [Paperless-ngx](https://docs.paperless-ngx.com/) - Scan, OCR and organize documents
 - [Karakeep](https://karakeep.app/) - bookmark anything
 - [Linkding](https://linkding.link/) - bookmark manager
+- [RomM](https://romm.app/) - rom manager
 
 
 ### Server and Networking
@@ -77,12 +78,14 @@ Overview of several services for a Home Server.
 
 ### Documentation and knowledge base
 
+- [Overleaf](https://github.com/overleaf/overleaf) - LaTeX editor
 - [Outline](https://www.getoutline.com/)
 - [Joplin](https://joplinapp.org) - Note-taking app
 
 
 ### Personal data tracking
 
+- [Vaultwarden](https://github.com/dani-garcia/vaultwarden) - password manager
 - [Statistics for Strava](https://github.com/robiningelbrecht/statistics-for-strava) - Additional stats from your Strava data
 - [Firefly III](https://docs.firefly-iii.org/how-to/firefly-iii/installation/docker/) - Personal finance manager 
 - [Dawarich](https://dawarich.app/) - Self-hosted alternative to Google Timeline
@@ -91,6 +94,7 @@ Overview of several services for a Home Server.
 
 ### Utilities
 
+- [Rclone](https://rclone.org/) - syncs files to cloud storage
 - [Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)
 - [ntfy](https://github.com/binwiederhier/ntfy) - Send push notifications
 
