@@ -56,7 +56,8 @@ Overview of several services for a Home Server.
 - [NextCloud](https://nextcloud.com/install/#instructions-server)
 - [Syncthing](https://syncthing.net/)
 - [Samba](https://www.samba.org/)
-  [Kopia](https://kopia.io/docs/getting-started/)
+- [Kopia](https://kopia.io/docs/getting-started/)
+- [Copyparty](https://github.com/9001/copyparty)
 
 
 ### Media libraries and management
