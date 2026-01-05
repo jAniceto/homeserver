@@ -67,6 +67,7 @@ Overview of several services for a Home Server.
 - [Karakeep](https://karakeep.app/) - bookmark anything
 - [Linkding](https://linkding.link/) - bookmark manager
 - [RomM](https://romm.app/) - rom manager
+- [MeTube](https://github.com/alexta69/metube) - Youtube video downloader
 
 
 ### Server and Networking
@@ -95,9 +96,13 @@ Overview of several services for a Home Server.
 ### Utilities
 
 - [Rclone](https://rclone.org/) - syncs files to cloud storage
-- [Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)
+- [Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) - PDF tools
+- [BentoPDF](https://github.com/alam00000/bentopdf) - PDF tools
 - [ntfy](https://github.com/binwiederhier/ntfy) - Send push notifications
-
+- [MySpeed](https://docs.myspeed.dev/) - Internet speedtest
+- [Speedtest Tracker](https://github.com/alexjustesen/speedtest-tracker) - Internet speedtest 
+- [ConvertX](https://github.com/C4illin/ConvertX) - File converter
+- [Gitea Mirror](https://github.com/RayLabsHQ/gitea-mirror) - Mirror Github repositories
 
 ## Resources
 
