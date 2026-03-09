@@ -83,6 +83,8 @@ Overview of several services for a Home Server.
 - [Overleaf](https://github.com/overleaf/overleaf) - LaTeX editor
 - [Outline](https://www.getoutline.com/)
 - [Joplin](https://joplinapp.org) - Note-taking app
+- [An Otter Wiki](https://otterwiki.com)
+- [Bookstack](https://www.bookstackapp.com/)
 
 
 ### Personal data tracking
@@ -100,7 +102,7 @@ Overview of several services for a Home Server.
 - [Dockand](https://dockhand.pro/)
 - [Komodo](https://komo.do/)
 - [Arcane](https://getarcane.app/)
-- [](https://github.com/louislam/dockge)
+- [Dockage](https://github.com/louislam/dockge)
 
 
 ### Utilities
