@@ -85,6 +85,7 @@ Overview of several services for a Home Server.
 - [Joplin](https://joplinapp.org) - Note-taking app
 - [An Otter Wiki](https://otterwiki.com)
 - [Bookstack](https://www.bookstackapp.com/)
+- [Affine](https://docs.affine.pro/self-host-affine)
 
 
 ### Personal data tracking
