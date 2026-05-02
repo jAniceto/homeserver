@@ -71,13 +71,6 @@ Overview of several services for a Home Server.
 - [MeTube](https://github.com/alexta69/metube) - Youtube video downloader
 
 
-### Server and Networking
-
-- [Caddy](https://caddyserver.com/) - Reverse proxy
-- [Uptime Kuma](https://uptimekuma.org/) - Server status monitoring
-- [Pangolin](https://docs.digpangolin.com/) - tunneled reverse proxy server
-
-
 ### Documentation and knowledge base
 
 - [Overleaf](https://github.com/overleaf/overleaf) - LaTeX editor
@@ -95,6 +88,14 @@ Overview of several services for a Home Server.
 - [Firefly III](https://docs.firefly-iii.org/how-to/firefly-iii/installation/docker/) - Personal finance manager 
 - [Dawarich](https://dawarich.app/) - Self-hosted alternative to Google Timeline
 - [Actual Budget](https://actualbudget.com/) - app for managing your finances
+
+
+### Server and Networking
+
+- [Caddy](https://caddyserver.com/) - Reverse proxy
+- [Uptime Kuma](https://uptimekuma.org/) - Server status monitoring
+- [Pangolin](https://docs.digpangolin.com/) - tunneled reverse proxy server
+- [What's up Docker?](https://getwud.github.io/wud/#/) - Monitor Docker containers and keep them up-to-date
 
 
 ### Container management
@@ -116,6 +117,8 @@ Overview of several services for a Home Server.
 - [Speedtest Tracker](https://github.com/alexjustesen/speedtest-tracker) - Internet speedtest 
 - [ConvertX](https://github.com/C4illin/ConvertX) - File converter
 - [Gitea Mirror](https://github.com/RayLabsHQ/gitea-mirror) - Mirror Github repositories
+- [Zerobyte](https://github.com/nicotsx/zerobyte?tab=readme-ov-file) - Backup automation
+
 
 ## Resources
 
