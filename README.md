@@ -79,6 +79,9 @@ Overview of several services for a Home Server.
 - [An Otter Wiki](https://otterwiki.com)
 - [Bookstack](https://www.bookstackapp.com/)
 - [Affine](https://docs.affine.pro/self-host-affine)
+- [Docmost](https://docmost.com/)
+- [Wiki.JS](https://js.wiki/) - git support
+- [Docusaurus](https://docusaurus.io/) - git support
 
 
 ### Personal data tracking
